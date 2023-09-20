@@ -10,14 +10,14 @@ T-Coil Design using matlab
 
 - 对称T-Coil
 $$\begin{align}
-L_a &= L_b = \frac{CR^2}{2} \notag{} \\
-R_a &= R_b = \frac{R^2}{2R_p} \notag{} \\
-R_c &= \frac{4R^2R_p}{R^2 + 4R_pR_s} \notag{} \\
-T_1 &= \frac{R^2}{R_p^2} + 2\frac{R}{R_p} + 4\frac{R_s}{R_p} \notag{} \\
-C_b &= \frac{C}{4}\frac{R_p^2}{R^2}[2\zeta^2(T_1 + 4) - 2\zeta\sqrt{(T_1 + 4 )[(T_1 + 4)\zeta^2 - T_1]} - T_1] \notag{} \\
-L_m &=  R^2C_b-\frac{L_a}{2} \notag{} \\
-w_n &= \frac{(T_1+4)\zeta + \sqrt{(T_1 + 4)[(T_1 + 4)\zeta^2  - T_1]}}{CR_pT_1} \notag{} \\
-G_{vo} &=  \frac{4}{(\frac{R}{R_p}+1)^2+4\frac{R_s}{R_p}+3} \notag{} \\
+L_a &= L_b = \frac{CR^2}{2} \notag{} \\ \
+R_a &= R_b = \frac{R^2}{2R_p} \notag{} \\ \
+R_c &= \frac{4R^2R_p}{R^2 + 4R_pR_s} \notag{} \\ \
+T_1 &= \frac{R^2}{R_p^2} + 2\frac{R}{R_p} + 4\frac{R_s}{R_p} \notag{} \\ \
+C_b &= \frac{C}{4}\frac{R_p^2}{R^2}[2\zeta^2(T_1 + 4) - 2\zeta\sqrt{(T_1 + 4 )[(T_1 + 4)\zeta^2 - T_1]} - T_1] \notag{} \\ \
+L_m &=  R^2C_b-\frac{L_a}{2} \notag{} \\ \
+w_n &= \frac{(T_1+4)\zeta + \sqrt{(T_1 + 4)[(T_1 + 4)\zeta^2  - T_1]}}{CR_pT_1} \notag{} \\ \
+G_{vo} &=  \frac{4}{(\frac{R}{R_p}+1)^2+4\frac{R_s}{R_p}+3} \notag{} \\ \
 \end{align}$$
 
 - 非对称T-Coil
