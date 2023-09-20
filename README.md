@@ -7,6 +7,7 @@ T-Coil Design using matlab
 
 ## 计算公式
 这里给出通用对称和非对称的matlab计算结果(若对Matlab符号计算感兴趣的同学可以下载$^{[1]}$)：
+
 - 对称T-Coil
 $$\begin{align}
 L_a &= L_b = \frac{CR^2}{2} \notag{} \\
@@ -18,6 +19,7 @@ L_m &=  R^2C_b-\frac{L_a}{2} \notag{} \\
 w_n &= \frac{(T_1+4)\zeta + \sqrt{(T_1 + 4)[(T_1 + 4)\zeta^2  - T_1]}}{CR_pT_1} \notag{} \\
 G_{vo} &=  \frac{4}{(\frac{R}{R_p}+1)^2+4\frac{R_s}{R_p}+3} \notag{} \\
 \end{align}$$
+
 - 非对称T-Coil
 对于$R_p \neq \infty$:
 $$\begin{align}
