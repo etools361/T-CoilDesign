@@ -1,3 +1,14 @@
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
 # T-CoilDesign
 T-Coil Design using matlab
 
@@ -40,8 +51,8 @@ G_{vo} &=  \frac{1-\frac{R_a}{R}}{1+\frac{R_s}{R_p}} \notag{} \\
 
 ## 参考
 
-[1]: [Guthub 源码], https://github.com/etools361/T-CoilDesign
-[2]: [T-Coil设计，电路设计小工具], 
-[3] :[Wang_Algebra_From_Theory_to_Practice, BOB ROSS], https://arxiv.org/abs/2208.09649,https://spiral.imperial.ac.uk/bitstream/10044/1/101108/10/Wang_Algebra_From_Theory_to_Practice.pdf
-[3b] :[王氏代数：从理论到实践, BOB ROSS], https://mp.weixin.qq.com/s/S_89anAlWo924alZcdJAPw
+[1]: [Guthub 源码], https://github.com/etools361/T-CoilDesign \
+[2]: [T-Coil设计，电路设计小工具],  \
+[3] :[Wang_Algebra_From_Theory_to_Practice, BOB ROSS], https://arxiv.org/abs/2208.09649,https://spiral.imperial.ac.uk/bitstream/10044/1/101108/10/Wang_Algebra_From_Theory_to_Practice.pdf \
+[3b] :[王氏代数：从理论到实践, BOB ROSS], https://mp.weixin.qq.com/s/S_89anAlWo924alZcdJAPw \
 
