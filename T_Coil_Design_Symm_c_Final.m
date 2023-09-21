@@ -6,7 +6,7 @@
 % Symmetrical Type c
 %--------------------------------------------------------------------------
 ConstR_TEST = 0;
-syms C_b L_a L_b L_m C R s w_n zeta b R_p R_a R_s R_c
+syms C_b L_a L_b L_m C R s w_n zeta b R_p R_a R_s R_c R_a
 AA = R_c; BB = R_a; CCC = R_a; DD = R_p; EE = R; 
 ZG = R_p*(CCC*AA+EE*AA+EE*BB+EE*CCC)/(CCC*AA+CCC*BB+DD*AA+DD*BB+DD*CCC+EE*AA+EE*BB+EE*CCC);
 A  = R_c/(1+s*R_c*C_b);

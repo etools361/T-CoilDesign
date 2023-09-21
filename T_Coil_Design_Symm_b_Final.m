@@ -6,7 +6,7 @@
 % Asymmetrical Type a
 %--------------------------------------------------------------------------
 ConstR_TEST = 0;
-syms C_b L_a L_b L_m C R s w_n zeta b R_p R_b R_s R_c
+syms C_b L_a L_b L_m C R s w_n zeta b R_p R_b R_s R_c R_a
 A  = R_c/(1+s*R_c*C_b);
 B  = s*L_a;
 CC = s*L_a;
